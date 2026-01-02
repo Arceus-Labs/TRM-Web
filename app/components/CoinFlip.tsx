@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 
 interface CoinFlipProps {
@@ -72,23 +72,6 @@ export default function CoinFlip({ isFlipping, result, onFlipComplete }: CoinFli
           {showResult && displayedResult === 'loss' ? '✗' : '💀'}
         </div>
       </motion.div>
-
-      {/* Result flash */}
-      <AnimatePresence>
-        {showResult && displayedResult && (
-          <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: [0, 1.3, 1], opacity: [0, 1, 1] }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }}
-            className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl md:text-5xl font-black ${
-              displayedResult === 'win' ? 'text-emerald-400' : 'text-red-400'
-            }`}
-          >
-            {displayedResult === 'win' ? 'WIN!' : 'LOSS!'}
-          </motion.div>
-        )}
-      </AnimatePresence>
 
       {/* Idle state */}
       {!isFlipping && !showResult && (

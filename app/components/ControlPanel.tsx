@@ -41,7 +41,7 @@ export default function ControlPanel({
   isPlaying,
   isBankrupt,
 }: ControlPanelProps) {
-  const houseEdge = ((0.5 - winProbability) * 200).toFixed(1);
+  const houseEdge = ((50 - winProbability) * 2).toFixed(1);
 
   return (
     <div className="glass rounded-2xl p-6 space-y-6">

@@ -217,8 +217,8 @@ TRM-Web/
 | Resource | Link |
 |:--------:|:----:|
 | 🐙 GitHub | [Arceus-Labs/TRM-Web](https://github.com/Arceus-Labs/TRM-Web) |
-| 🎮 Live Demo | Coming Soon |
-| 🔧 Hardware Version | Coming Soon |
+| 🎮 Live Demo | [Vercel](https://the-ruin-machine-web.vercel.app) |
+| 🔧 Hardware Version | [GitHub](https://github.com/Arceus-Labs/The-Ruin-Machine) |
 
 </div>
 

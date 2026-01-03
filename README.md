@@ -210,42 +210,6 @@ TRM-Web/
 
 ---
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Docker
-
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
-```
-
----
-
-## 🔮 Future Improvements
-
-- [ ] Sound effects (win/loss/bankruptcy)
-- [ ] Share results to social media
-- [ ] Leaderboard (Hall of Shame)
-- [ ] More betting strategies
-- [ ] Multiplayer mode
-- [ ] Mobile app version
-- [ ] Hardware integration (ESP32)
-
----
-
 ## 🔗 Links
 
 <div align="center">

@@ -15,7 +15,7 @@
 
 **A beautiful, interactive web simulator that mathematically proves<br/>why gambling strategies always lose to probability theory and house edge.**
 
-[🎰 Live Demo](#) • [📄 Documentation](#-about)
+[🎰 Live Demo](https://the-ruin-machine-web.vercel.app) • [📄 Report](https://crocus-zenobia-863.notion.site/The-Ruin-Machine-Technical-Report-2dc1ebfe2064806a9625f49a9871aaf3?pvs=73)
 
 </div>
 

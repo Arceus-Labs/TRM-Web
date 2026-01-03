@@ -18,7 +18,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://the-ruin-machine-web.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 hover:text-slate-300 transition-colors"
